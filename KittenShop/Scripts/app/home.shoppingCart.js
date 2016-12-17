@@ -12,7 +12,7 @@ $('.visibility-cart').on('click',function(){
      $btn.addClass('is-closed');
   } else {
      $btn.addClass('is-open');
-     $btn.text('X')
+     $btn.text('V')
      $cart.addClass('is-open');     
      $cart.removeClass('is-closed');
      $btn.removeClass('is-closed');

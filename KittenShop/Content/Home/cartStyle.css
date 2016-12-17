@@ -25,12 +25,12 @@ html {
 
 h1 {
   text-transform: uppercase;
-  font-weight: bold;
+  /*font-weight: bold;*/
   font-size: 2.5em;
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #8a8a8a;
 }
 
@@ -53,9 +53,9 @@ a {
   text-decoration: none;
 }
 
-.container {
+.cart-container {
   max-width: 75em;
-  width: 95%;
+  width: 600px;
   margin: 40px auto;  
   overflow: hidden;
   position: relative;
@@ -88,7 +88,9 @@ a {
   border-radius: 0.6em;
   overflow: hidden;
   clear: both;
-  margin-bottom: 1.8em;
+  /*margin-bottom: 1.8em;*/
+  padding-left: 10px;
+  padding-right: 20px;
 }
 
 
@@ -104,8 +106,8 @@ a {
   background: #f34d35;
   color: #fff;
   text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1.5em;
+  /*font-weight: bold;
+  font-size: 1.5em;*/
 }
 
 .tf {
@@ -126,7 +128,7 @@ a {
 }
 
 .col-pro {
-  width: 44%;
+  width: 40%;
 }
 
 .col-pro > * {
@@ -135,11 +137,11 @@ a {
 
 .col-qty {
   text-align: center;
-  width: 17%;
+  /*width: 17%;*/
 }
 
 .col-numeric p {
-  font: bold 1.8em helvetica;
+  font: bold 1.1em helvetica;
 }
 
 .col-total p {
@@ -174,7 +176,7 @@ a {
 }
 
 .col-qty > input {
-  max-width: 2.6em;
+  max-width: 1.4em;
 }
 
 
@@ -196,7 +198,7 @@ a.qty:hover {
 .btn {
   padding: 10px 30px;
   border-radius: 0.3em;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: bold;
   background: #43ace3;
   color: #fff;
@@ -209,7 +211,7 @@ a.qty:hover {
 
 .btn-update {
   float: right;
-  margin: 0 0 1.5em 0;
+  margin: 0 0 1.2em 0;
 }
 
 .transition {
@@ -217,8 +219,8 @@ a.qty:hover {
 }
 
 @media screen and ( max-width: 755px) {
-  .container {
-    width: 98%;
+  .cart-container {
+    width: 80%;
   }
   
   .col-pro {
@@ -236,5 +238,7 @@ a.qty:hover {
 }
 
 @media screen and ( max-width: 591px) {
-  
+  .cart-container {
+    width: 90%;
+  }
 }
